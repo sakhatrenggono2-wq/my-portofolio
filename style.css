@@ -327,3 +327,68 @@ footer {
     
     .skill-card, .project-card { padding: 1.8rem; }
 }
+
+/* --- STYLE UNTUK CONTACT SECTION --- */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Warna background gelap yang elegan */
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    background: #252525;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    min-width: 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    border: 1px solid #333333;
+}
+
+/* Efek pas kursor komputer menyentuh tombol */
+.contact-card:hover {
+    transform: translateY(-5px);
+    background: #333333;
+    border-color: #0070f3; /* Garis tepi berubah biru khas Vercel/Dev */
+}
+
+.contact-card .icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.contact-text {
+    text-align: left;
+}
+
+.contact-text h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.contact-text p {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: #0070f3; /* Warna link text */
+}
